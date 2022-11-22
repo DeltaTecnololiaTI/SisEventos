@@ -39,9 +39,9 @@ namespace SisEventos.API.Controllers
         [HttpGet]
         public IEnumerable<Evento> Get()
         {
-            return _evento;          
-
+            return _evento; 
         }
+        
         [HttpGet("{id}")]
         public IEnumerable<Evento> GetById(int id)
         {
